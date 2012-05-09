@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6DEB04C153ECCC400D361BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DEB04B153ECCC400D361BA /* UIKit.framework */; };
+		C6DEB04E153ECCC400D361BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DEB04D153ECCC400D361BA /* Foundation.framework */; };
+		C6DEB050153ECCC400D361BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DEB04F153ECCC400D361BA /* CoreGraphics.framework */; };
+		C6DEB056153ECCC400D361BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6DEB054153ECCC400D361BA /* InfoPlist.strings */; };
+		C6DEB058153ECCC400D361BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DEB057153ECCC400D361BA /* main.m */; };
+		C6DEB05C153ECCC400D361BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DEB05B153ECCC400D361BA /* AppDelegate.m */; };
+		C6DEB05F153ECCC400D361BA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DEB05E153ECCC400D361BA /* FirstViewController.m */; };
+		C6DEB061153ECCC400D361BA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DEB060153ECCC400D361BA /* first.png */; };
+		C6DEB063153ECCC400D361BA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DEB062153ECCC400D361BA /* first@2x.png */; };
+		C6DEB066153ECCC400D361BA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DEB065153ECCC400D361BA /* SecondViewController.m */; };
+		C6DEB068153ECCC400D361BA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DEB067153ECCC400D361BA /* second.png */; };
+		C6DEB06A153ECCC500D361BA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DEB069153ECCC400D361BA /* second@2x.png */; };
+		C6DEB06D153ECCC500D361BA /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6DEB06B153ECCC500D361BA /* FirstViewController_iPhone.xib */; };
+		C6DEB070153ECCC500D361BA /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6DEB06E153ECCC500D361BA /* FirstViewController_iPad.xib */; };
+		C6DEB073153ECCC500D361BA /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6DEB071153ECCC500D361BA /* SecondViewController_iPhone.xib */; };
+		C6DEB076153ECCC500D361BA /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6DEB074153ECCC500D361BA /* SecondViewController_iPad.xib */; };
+		C6DEB07E153ECCC500D361BA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DEB07D153ECCC500D361BA /* SenTestingKit.framework */; };
+		C6DEB07F153ECCC500D361BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DEB04B153ECCC400D361BA /* UIKit.framework */; };
+		C6DEB080153ECCC500D361BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DEB04D153ECCC400D361BA /* Foundation.framework */; };
+		C6DEB088153ECCC500D361BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6DEB086153ECCC500D361BA /* InfoPlist.strings */; };
+		C6DEB08B153ECCC500D361BA /* DowloadEbookFreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DEB08A153ECCC500D361BA /* DowloadEbookFreeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6DEB081153ECCC500D361BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6DEB03E153ECCC400D361BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6DEB046153ECCC400D361BA;
+			remoteInfo = DowloadEbookFree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6DEB047153ECCC400D361BA /* DowloadEbookFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DowloadEbookFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DEB04B153ECCC400D361BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6DEB04D153ECCC400D361BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6DEB04F153ECCC400D361BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6DEB053153ECCC400D361BA /* DowloadEbookFree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DowloadEbookFree-Info.plist"; sourceTree = "<group>"; };
+		C6DEB055153ECCC400D361BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6DEB057153ECCC400D361BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6DEB059153ECCC400D361BA /* DowloadEbookFree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DowloadEbookFree-Prefix.pch"; sourceTree = "<group>"; };
+		C6DEB05A153ECCC400D361BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6DEB05B153ECCC400D361BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6DEB05D153ECCC400D361BA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C6DEB05E153ECCC400D361BA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C6DEB060153ECCC400D361BA /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C6DEB062153ECCC400D361BA /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C6DEB064153ECCC400D361BA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C6DEB065153ECCC400D361BA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C6DEB067153ECCC400D361BA /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C6DEB069153ECCC400D361BA /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		C6DEB06C153ECCC500D361BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		C6DEB06F153ECCC500D361BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		C6DEB072153ECCC500D361BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		C6DEB075153ECCC500D361BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		C6DEB07C153ECCC500D361BA /* DowloadEbookFreeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DowloadEbookFreeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DEB07D153ECCC500D361BA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C6DEB085153ECCC500D361BA /* DowloadEbookFreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DowloadEbookFreeTests-Info.plist"; sourceTree = "<group>"; };
+		C6DEB087153ECCC500D361BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6DEB089153ECCC500D361BA /* DowloadEbookFreeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DowloadEbookFreeTests.h; sourceTree = "<group>"; };
+		C6DEB08A153ECCC500D361BA /* DowloadEbookFreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DowloadEbookFreeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6DEB044153ECCC400D361BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DEB04C153ECCC400D361BA /* UIKit.framework in Frameworks */,
+				C6DEB04E153ECCC400D361BA /* Foundation.framework in Frameworks */,
+				C6DEB050153ECCC400D361BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DEB078153ECCC500D361BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DEB07E153ECCC500D361BA /* SenTestingKit.framework in Frameworks */,
+				C6DEB07F153ECCC500D361BA /* UIKit.framework in Frameworks */,
+				C6DEB080153ECCC500D361BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6DEB03C153ECCC400D361BA = {
+			isa = PBXGroup;
+			children = (
+				C6DEB051153ECCC400D361BA /* DowloadEbookFree */,
+				C6DEB083153ECCC500D361BA /* DowloadEbookFreeTests */,
+				C6DEB04A153ECCC400D361BA /* Frameworks */,
+				C6DEB048153ECCC400D361BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6DEB048153ECCC400D361BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6DEB047153ECCC400D361BA /* DowloadEbookFree.app */,
+				C6DEB07C153ECCC500D361BA /* DowloadEbookFreeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6DEB04A153ECCC400D361BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DEB04B153ECCC400D361BA /* UIKit.framework */,
+				C6DEB04D153ECCC400D361BA /* Foundation.framework */,
+				C6DEB04F153ECCC400D361BA /* CoreGraphics.framework */,
+				C6DEB07D153ECCC500D361BA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6DEB051153ECCC400D361BA /* DowloadEbookFree */ = {
+			isa = PBXGroup;
+			children = (
+				C6DEB05A153ECCC400D361BA /* AppDelegate.h */,
+				C6DEB05B153ECCC400D361BA /* AppDelegate.m */,
+				C6DEB05D153ECCC400D361BA /* FirstViewController.h */,
+				C6DEB05E153ECCC400D361BA /* FirstViewController.m */,
+				C6DEB060153ECCC400D361BA /* first.png */,
+				C6DEB062153ECCC400D361BA /* first@2x.png */,
+				C6DEB064153ECCC400D361BA /* SecondViewController.h */,
+				C6DEB065153ECCC400D361BA /* SecondViewController.m */,
+				C6DEB067153ECCC400D361BA /* second.png */,
+				C6DEB069153ECCC400D361BA /* second@2x.png */,
+				C6DEB06B153ECCC500D361BA /* FirstViewController_iPhone.xib */,
+				C6DEB06E153ECCC500D361BA /* FirstViewController_iPad.xib */,
+				C6DEB071153ECCC500D361BA /* SecondViewController_iPhone.xib */,
+				C6DEB074153ECCC500D361BA /* SecondViewController_iPad.xib */,
+				C6DEB052153ECCC400D361BA /* Supporting Files */,
+			);
+			path = DowloadEbookFree;
+			sourceTree = "<group>";
+		};
+		C6DEB052153ECCC400D361BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6DEB053153ECCC400D361BA /* DowloadEbookFree-Info.plist */,
+				C6DEB054153ECCC400D361BA /* InfoPlist.strings */,
+				C6DEB057153ECCC400D361BA /* main.m */,
+				C6DEB059153ECCC400D361BA /* DowloadEbookFree-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6DEB083153ECCC500D361BA /* DowloadEbookFreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6DEB089153ECCC500D361BA /* DowloadEbookFreeTests.h */,
+				C6DEB08A153ECCC500D361BA /* DowloadEbookFreeTests.m */,
+				C6DEB084153ECCC500D361BA /* Supporting Files */,
+			);
+			path = DowloadEbookFreeTests;
+			sourceTree = "<group>";
+		};
+		C6DEB084153ECCC500D361BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6DEB085153ECCC500D361BA /* DowloadEbookFreeTests-Info.plist */,
+				C6DEB086153ECCC500D361BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6DEB046153ECCC400D361BA /* DowloadEbookFree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6DEB08E153ECCC500D361BA /* Build configuration list for PBXNativeTarget "DowloadEbookFree" */;
+			buildPhases = (
+				C6DEB043153ECCC400D361BA /* Sources */,
+				C6DEB044153ECCC400D361BA /* Frameworks */,
+				C6DEB045153ECCC400D361BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DowloadEbookFree;
+			productName = DowloadEbookFree;
+			productReference = C6DEB047153ECCC400D361BA /* DowloadEbookFree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6DEB07B153ECCC500D361BA /* DowloadEbookFreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6DEB091153ECCC500D361BA /* Build configuration list for PBXNativeTarget "DowloadEbookFreeTests" */;
+			buildPhases = (
+				C6DEB077153ECCC500D361BA /* Sources */,
+				C6DEB078153ECCC500D361BA /* Frameworks */,
+				C6DEB079153ECCC500D361BA /* Resources */,
+				C6DEB07A153ECCC500D361BA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6DEB082153ECCC500D361BA /* PBXTargetDependency */,
+			);
+			name = DowloadEbookFreeTests;
+			productName = DowloadEbookFreeTests;
+			productReference = C6DEB07C153ECCC500D361BA /* DowloadEbookFreeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6DEB03E153ECCC400D361BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C6DEB041153ECCC400D361BA /* Build configuration list for PBXProject "DowloadEbookFree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6DEB03C153ECCC400D361BA;
+			productRefGroup = C6DEB048153ECCC400D361BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6DEB046153ECCC400D361BA /* DowloadEbookFree */,
+				C6DEB07B153ECCC500D361BA /* DowloadEbookFreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6DEB045153ECCC400D361BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DEB056153ECCC400D361BA /* InfoPlist.strings in Resources */,
+				C6DEB061153ECCC400D361BA /* first.png in Resources */,
+				C6DEB063153ECCC400D361BA /* first@2x.png in Resources */,
+				C6DEB068153ECCC400D361BA /* second.png in Resources */,
+				C6DEB06A153ECCC500D361BA /* second@2x.png in Resources */,
+				C6DEB06D153ECCC500D361BA /* FirstViewController_iPhone.xib in Resources */,
+				C6DEB070153ECCC500D361BA /* FirstViewController_iPad.xib in Resources */,
+				C6DEB073153ECCC500D361BA /* SecondViewController_iPhone.xib in Resources */,
+				C6DEB076153ECCC500D361BA /* SecondViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DEB079153ECCC500D361BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DEB088153ECCC500D361BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6DEB07A153ECCC500D361BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6DEB043153ECCC400D361BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DEB058153ECCC400D361BA /* main.m in Sources */,
+				C6DEB05C153ECCC400D361BA /* AppDelegate.m in Sources */,
+				C6DEB05F153ECCC400D361BA /* FirstViewController.m in Sources */,
+				C6DEB066153ECCC400D361BA /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DEB077153ECCC500D361BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6DEB08B153ECCC500D361BA /* DowloadEbookFreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6DEB082153ECCC500D361BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6DEB046153ECCC400D361BA /* DowloadEbookFree */;
+			targetProxy = C6DEB081153ECCC500D361BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6DEB054153ECCC400D361BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DEB055153ECCC400D361BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6DEB06B153ECCC500D361BA /* FirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DEB06C153ECCC500D361BA /* en */,
+			);
+			name = FirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C6DEB06E153ECCC500D361BA /* FirstViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DEB06F153ECCC500D361BA /* en */,
+			);
+			name = FirstViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		C6DEB071153ECCC500D361BA /* SecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DEB072153ECCC500D361BA /* en */,
+			);
+			name = SecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C6DEB074153ECCC500D361BA /* SecondViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DEB075153ECCC500D361BA /* en */,
+			);
+			name = SecondViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		C6DEB086153ECCC500D361BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6DEB087153ECCC500D361BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6DEB08C153ECCC500D361BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6DEB08D153ECCC500D361BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6DEB08F153ECCC500D361BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DowloadEbookFree/DowloadEbookFree-Prefix.pch";
+				INFOPLIST_FILE = "DowloadEbookFree/DowloadEbookFree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6DEB090153ECCC500D361BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DowloadEbookFree/DowloadEbookFree-Prefix.pch";
+				INFOPLIST_FILE = "DowloadEbookFree/DowloadEbookFree-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6DEB092153ECCC500D361BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DowloadEbookFree.app/DowloadEbookFree";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DowloadEbookFree/DowloadEbookFree-Prefix.pch";
+				INFOPLIST_FILE = "DowloadEbookFreeTests/DowloadEbookFreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C6DEB093153ECCC500D361BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DowloadEbookFree.app/DowloadEbookFree";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DowloadEbookFree/DowloadEbookFree-Prefix.pch";
+				INFOPLIST_FILE = "DowloadEbookFreeTests/DowloadEbookFreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6DEB041153ECCC400D361BA /* Build configuration list for PBXProject "DowloadEbookFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DEB08C153ECCC500D361BA /* Debug */,
+				C6DEB08D153ECCC500D361BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6DEB08E153ECCC500D361BA /* Build configuration list for PBXNativeTarget "DowloadEbookFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DEB08F153ECCC500D361BA /* Debug */,
+				C6DEB090153ECCC500D361BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6DEB091153ECCC500D361BA /* Build configuration list for PBXNativeTarget "DowloadEbookFreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6DEB092153ECCC500D361BA /* Debug */,
+				C6DEB093153ECCC500D361BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6DEB03E153ECCC400D361BA /* Project object */;
+}
